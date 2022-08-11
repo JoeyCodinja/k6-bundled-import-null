@@ -16,6 +16,7 @@
   "engines": {},
   "scripts": {
     "webpack": "webpack",
+    "build-and-run-tests": "webpack && k6 run build/app.bundle.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
